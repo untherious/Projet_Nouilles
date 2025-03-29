@@ -58,3 +58,10 @@ body {
     color: gray;
     text-align: left;
 }
+
+.subtitle {
+    font-size: 18px;
+    color: #4d4c49bf;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
