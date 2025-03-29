@@ -104,7 +104,12 @@ body {
   
 .about-small-titre {
     font-size: 12px;
-    color: #777;
+    color: #696866e6;
     margin-bottom: 5px;
 }
 
+.about-titre {
+    font-size: 26px;
+    color: #373736e1;
+    margin-bottom: 5px;
+}
