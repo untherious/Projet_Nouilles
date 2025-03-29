@@ -222,6 +222,56 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.portfolio-item img {
+    width: 250px;
+    display: block;
+    border-radius: 8px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(153, 137, 216, 0.7); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: transform 0.4s ease, opacity 0.4s ease;
+    text-align: center;
+    border-radius: 8px;
+}
+
+
+.portfolio-item:hover .overlay {
+    transform: scale(1);
+    opacity: 1;
+}
+
+
+.overlay h5 {
+    font-size: 16px;
+    color: #421a9e; 
+    margin-bottom: 5px;
+    font-weight: 900;
+}
+
+.overlay p {
+    font-size: 12px;
+    margin-bottom: 10%;
+    font-weight: bold;
+
+}
+
+
 /* Ici y a la section avec les prix */
 
 .pricing {
@@ -607,3 +657,82 @@ body {
     color: #444;
     text-decoration: none;
 }
+
+
+/* Responsive pour téléphone */
+@media (max-width: 768px) {
+.nav-container,
+.about-container,
+.portfolio-grid,
+.pricing-grid,
+.cta-container,
+.testimonial-grid,
+.contact-top-row,
+.footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-links,
+.contact-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.about-description {
+    margin-right: 0;
+}
+
+.cta-container {
+    gap: 20px;
+}
+
+.blog-card {
+    flex-direction: column;
+    width: 90%;
+}
+
+.blog-card img {
+    width: 100%;
+    height: auto;
+}
+
+.contact-form textarea {
+    width: 90%;
+}
+}
+  
+/* Responsive pour tablette */
+@media (min-width: 769px) and (max-width: 1024px) {
+.nav-container,
+.about-container,
+.portfolio-grid,
+.pricing-grid,
+.cta-container,
+.testimonial-grid,
+.contact-top-row,
+.footer-bottom {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-description {
+    margin-right: 0;
+}
+
+.blog-card {
+    width: 100%;
+}
+
+.blog-card img {
+    width: 40%;
+}
+
+.contact-form textarea {
+    width: 80%;
+}
+}
+  
