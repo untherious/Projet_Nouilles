@@ -138,3 +138,30 @@ body {
     text-decoration: none;
     border-radius: 20px;
 }
+
+/* Maintenant je vais mettre la section, service */
+
+.services-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.service {
+    background-color: whitesmoke;
+    padding: 60px 30px;
+    text-align: center;
+}
+.services-small-title {
+    font-size: 14px;
+    color: #696866e6;
+    margin-bottom: 5px;
+}
+
+.services-title {
+    font-size: 26px;
+    color: #373736e1;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
