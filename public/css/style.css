@@ -39,3 +39,73 @@
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+/* Ici y a la section avec les prix */
+
+.pricing {
+    padding: 80px 30px;
+    background-color: white;
+    text-align: center;
+}
+
+.pricing-small-titre {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.pricing-titre {
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+
+.pricing-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.pricing-card {
+    width: 250px;
+    border: 1px solid purple;
+    border-radius: 10px;
+    padding: 30px 20px;
+    background-color: whitesmoke;
+    transition: all 0.3s ease;
+}
+
+.pricing-card img {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.pricing-name {
+    margin-bottom: 23px;
+}
+
+.pricing-features {
+    list-style: none;
+    padding: 0;
+    font-size: 13px;
+    color: #3e3c3c;
+    margin-bottom: 20px;
+}
+
+.pricing-features .disabled {
+    color: #d9534f;
+}
+
+.price {
+    font-weight: bold;
+    margin-bottom: 29px;
+}
+
+.subscribe-btn {
+    background-color: #5e4aaf;
+    color: white;
+    font-size: 13px;
+    padding: 8px 14px;
+    text-decoration: none;
+    border-radius: 4px;
+}
