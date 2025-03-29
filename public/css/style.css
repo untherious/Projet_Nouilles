@@ -96,3 +96,7 @@ body {
     margin-right: auto;
     gap: 40px;
 }
+
+.about-image img {
+    width: 400px;
+}
