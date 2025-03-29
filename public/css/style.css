@@ -18,3 +18,8 @@ body {
     align-items: center;
     justify-content: space-around;
 }
+
+.titre {
+    color: whitesmoke;
+    font-size: 28px;
+}
