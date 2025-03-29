@@ -1,0 +1,8 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    background-position: 0 33%;
+    background-repeat: no-repeat;
+}
+
