@@ -144,40 +144,66 @@ body {
 .services-grid {
     display: flex;
     justify-content: center;
+    text-align: center;
     flex-wrap: wrap;
     gap: 30px;
 }
-
+  
 .service {
     background-color: whitesmoke;
-    padding: 60px 30px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
     text-align: center;
 }
+  
 .services-small-title {
     font-size: 14px;
     color: #696866e6;
-    margin-bottom: 5px;
 }
-
+  
 .services-title {
     font-size: 26px;
     color: #373736e1;
-    margin-top: 0;
-    margin-bottom: 40px;
 }
-
+  
 .service-card {
     width: 200px;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     border: 1px solid gray;
     border-radius: 10px;
     transition: all 0.3s ease;
     cursor: pointer;
-    position: relative;
     background-color: whitesmoke;
+    overflow: hidden;
 }
-
+  
 .service-card img {
     width: 50px;
     margin-bottom: 10px;
 }
+  
+.service-description {
+    opacity: 0;
+    visibility: hidden;
+    color: #434242d8;
+    transition: all 0.3s ease;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 0;
+}
+  
+/* Ici au hover ta la description qui apparait */
+
+.service-card:hover .service-description {
+    opacity: 1;
+    visibility: visible;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+  
