@@ -1,17 +1,15 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url(../images/header.jpg);
-    background-size: cover;
-    background-position: 0 33%;
-    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    background-color: white;
 }
 
-/* Je vais mettre la navbar */
-
+/* Ici j'ai mis ma navbar */
 .navbar {
-    position: sticky; /* ici je mets la navbar sticky comme demander */
-    padding-top: 20px;
-    padding-bottom: 20px;
+    position: fixed; 
+    width: 100%;
+    padding-top: 2%;
 }
 
 .nav-container {
@@ -37,14 +35,20 @@ body {
     font-weight: 700;
 }
 
-
-/* Maintenant je vais mettre le header */
-
+/* Ici j'ai mis le header et l'image*/
 .header {
+    background-image: 
+        linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, white 100%),
+        url(../images/header.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 40%, center;
+    background-size: cover;
+    height: 80vh;
     display: flex;
     justify-content: center;
-    padding-top: 5%;
-    padding-bottom: 7%;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
 }
 
 .header h1 {
@@ -76,4 +80,10 @@ body {
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+/* Ici c'est la section about me */
+.about {
+    background-color: white;
+    padding: 60px 20px;
 }
