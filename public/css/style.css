@@ -209,3 +209,80 @@
 }
 
 
+/* Ici c'est la section blog. */
+.blog {
+    background-color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.blog-small-title {
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.blog-title {
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+
+.blog-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.blog-card {
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 700px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+}
+
+.blog-card img {
+    width: 250px;
+    height: auto;
+    object-fit: cover;
+}
+
+.blog-content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+    flex: 1;
+}
+
+.blog-post-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #5e4aaf;
+    margin-bottom: 5px;
+}
+
+.blog-meta {
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.blog-text {
+    font-size: 13px;
+    color: #444;
+    margin-bottom: 8px;
+}
+
+.read-more {
+    font-size: 12px;
+    color: #5e4aaf;
+    text-decoration: none;
+}
