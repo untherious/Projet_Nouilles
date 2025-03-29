@@ -6,3 +6,9 @@ body {
     background-repeat: no-repeat;
 }
 
+/* Je vais mettre la navbar */
+.navbar {
+    position: sticky; /* ici je mets la navbar sticky comme demander */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
