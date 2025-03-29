@@ -7,6 +7,7 @@ body {
 }
 
 /* Je vais mettre la navbar */
+
 .navbar {
     position: sticky; /* ici je mets la navbar sticky comme demander */
     padding-top: 20px;
@@ -34,4 +35,14 @@ body {
     text-decoration: none;
     color: black;
     font-weight: 700;
+}
+
+
+/* Maintenant je vais mettre le header */
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 7%;
 }
